@@ -1,0 +1,74 @@
+#include <iostream>
+#include <string>
+using namespace std;
+#include <iomanip>
+#include <cmath>
+
+
+
+int main() {
+  int op = -1, num ;
+  while (op<1|| op>8 ){
+    cout << "1.Sumar dos números.\n";
+    cout << "2.Restar dos números.\n";
+    cout << "3.Multiplicar dos números.o\n";
+    cout << "4.Dividir dos números.\n";
+    cout << "5.Obtener el seno de un ángulo.\n";
+    cout << "6.Obtener el coseno de un ángulo\n";
+    cout << "7.Obtener la tangente de un ángulo\n";
+
+    cout << "8.salir\n";
+    cin >> op;
+
+   switch(op){
+    case 1:{
+      cout <<"suma :"<< 12 + 4<< endl;
+    }
+    return main();//returno al menu prinprincipal 
+    break;
+
+    case 2:{
+      cout <<"resta :"<< 12 - 4<< endl;
+    }
+    return main();//returno al menu prinprincipal
+
+    break;
+
+    case 3:{
+      cout <<"multiplicacion :"<< 12 * 4<< endl;
+      return main();//returno al menu prinprincipal
+    }
+    break;
+
+    case 4:{
+      cout <<"cociente :"<< 26 / 3<< endl;
+      cout <<"resto :"<< 26 % 3 << endl;
+      return main();//returno al menu prinprincipal
+    }
+    break;
+
+    case 5:{
+      cout <<"seno del angulo:"<< 12 * 4<< endl;
+      return main();//returno al menu prinprincipal
+    }
+    break;
+
+    case 6:{
+      cout <<"coseno de un angulo :"<< 12 * 4<< endl;
+       return main();
+    }
+    break;
+
+    case 7:{
+      cout <<"tangente de un angulo :"<< 12 * 4<< endl;
+      return main();
+    }
+    break;
+
+
+    case 8: {
+      return 0 ;
+    }
+  }
+  }
+}               
